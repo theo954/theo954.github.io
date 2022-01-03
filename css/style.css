@@ -1,0 +1,114 @@
+html{
+  font-size: 62.5%;
+}
+h1, h2, h3, p, figure, ul, ol{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+    font: 1.6rem sans-serif;
+    margin: 0;
+
+}
+header{
+    background-color: #468189;
+    padding: 1rem;
+
+}
+header h1{
+  color: #fff;
+  line-height: 8.5rem;
+  font-weight: normal;
+}
+header img{
+    border-radius: 50%;
+}
+
+header > div {
+    display: flex;
+    flex-direction: row;
+}
+
+header > div div {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+section{
+    overflow: hidden;
+    color: #000000;
+}
+section > div{
+  padding: 3rem;
+}
+section h2{
+  line-height: 4.5rem;
+  padding: 1rem;
+  color: #fff;
+  font-weight: normal;
+}
+section p, section ul{
+  line-height: 2.6rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #031926;
+    position: sticky;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 1rem;
+}
+h2{
+    background-color: #031926;
+}
+ .logiciel{
+    margin: 0%;
+    background-color: whitesmoke;
+}
+.competence{
+}
+.experience{
+    background-color: whitesmoke;
+    padding-right: 0.2rem;
+}
+.etude{
+    background-color: whitesmoke;
+}
+.loisir{
+    background-color: whitesmoke;
+}
+.figure img{
+  display: inline-block;
+  vertical-align: middle;
+}
+.figure{
+  text-align: center;
+  width: 80rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 700px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        display: none;
+    }
+}
+
+footer{
+    border-style: solid;
+    border-width: 0.2rem;
+    border-spacing: 5px;
+    box-shadow: 1.5rem;
+    text-align: center;
+}
